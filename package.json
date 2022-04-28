@@ -1,0 +1,31 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./path/to/your/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spilly0/wikistack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spilly0/wikistack/issues"
+  },
+  "homepage": "https://github.com/spilly0/wikistack#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "html-template-tag": "^3.2.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.0",
+    "static": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
